@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ls -A | wc -l
