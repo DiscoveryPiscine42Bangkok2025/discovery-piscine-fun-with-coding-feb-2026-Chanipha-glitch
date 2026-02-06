@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    background: 
+        linear-gradient(135deg, rgba(0,0,0,0.95), rgba(0,120,255,0.25)),
+        radial-gradient(circle at top right, rgba(0,255,255,0.15), transparent 40%),
+        radial-gradient(circle at bottom left, rgba(255,0,255,0.15), transparent 40%),
+        url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
